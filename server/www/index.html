@@ -1,0 +1,53 @@
+<!doctype html>
+<meta charset="utf-8" />  
+<html>
+<head>
+<title>Tower Animator</title>
+</head>
+<link rel="stylesheet" href="css/smoothness/jquery-ui-1.10.1.custom.css" />
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script src="js/jquery-1.9.1.js"></script>
+<script src="js/jquery-ui-1.10.1.custom.js"></script>
+<script src="js/index.js"></script>
+</head>
+<body>
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Animations</a></li>
+    <li><a href="#tabs-2">Configuration</a></li>
+  </ul>
+  <div id="tabs-1">
+    <span class="paneltitle">Animations</span>
+    <div id="refreshbutton" class="ui-corner-all ui-state-default"><span class="ui-icon ui-icon-refresh"></span></div>
+    <ul id="animationlist" class="ui-widget"></ul> 
+    <div id="playercontrols" class="ui-corner-all ui-state-default">
+      <audio id="audioplayer" preload="auto"></audio>
+      <div id="playbutton" class="ui-corner-all ui-state-default ui-state-disabled"><span class="ui-icon ui-icon-play"></span></div>
+      <div id="currentanimationcontainer">
+        <div id="currentanimationtitle"></div>
+        <div id="currentanimationpos"></div>
+      </div>
+    </div>
+  </div>
+  <div id="tabs-2">
+    <span class="paneltitle">Configuration</span>
+    <table id="configtable">
+    <tr>
+      <td class="config-label">Server Status:</td>
+      <td class="config-value"><div id="serverstatus"></div></td>
+    </tr><tr>
+      <td class="config-label">Lag:</td>
+      <td class="config-value"><div id="lagslider"></div></td>
+    </tr><tr>
+      <td class="config-label">Ping Server:</td>
+      <td class="config-value">
+        <button id="pingbutton">Ping</button>
+        <div id="pingdiv"></div>
+      </td>
+    </tr>
+    </table>
+  </div>
+</div>
+</body>
+</html>
+

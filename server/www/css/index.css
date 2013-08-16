@@ -1,0 +1,80 @@
+body {
+  font: 75% "Trebuchet MS", sans-serif;
+}
+.paneltitle {
+  font-size: 36px;
+  font-weight: bold;
+}
+#animationlist {
+  list-style-type: none;
+  margin-top: 10px;
+  padding-left: 0px;
+  height: 250px;
+  overflow: auto;
+}
+#animationlist li {
+  padding: 4px;
+  height: 18px;
+}
+#animationlist li .handle {
+  float: left;
+  padding: 3px;
+  cursor: pointer;
+}
+#playercontrols {
+  width: 300px;
+  height: 60px;
+  background: #333;
+  padding-top: 20px;
+  padding-left: 20px;
+  color: #fff;
+}
+#playbutton {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  float: left;
+}
+#playbutton span.ui-icon {
+  margin: auto;
+  margin-top: 7px;
+}
+#currentanimationcontainer {
+  float: left;
+  padding-left: 10px;
+  width: 200px;
+}
+#currentanimationtitle {
+  height: 15px;
+  margin-top: -2px;
+  padding-bottom: 2px;
+}
+#currentanimationpos {
+  height: 15px;
+}
+.config-label {
+  text-align: right;
+  width: 140px;
+}
+.config-value {
+  padding-left: 20px;
+}
+#lagslider {
+  width: 200px;
+  float: left;
+}
+#pingdiv {
+  float: left;
+  margin-top: 9px;
+}
+#pingbutton {
+  float: left;
+}
+#refreshbutton {
+  float: right;
+  width: 20px;
+  height: 20px;
+  cursor: pointer; 
+}
+.ui-selectable-helper { display:none }
+
