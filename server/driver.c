@@ -16,7 +16,7 @@
 #define DS  11
 #define OE  12
 #define ST_CP 13
-#define SH_CP 9
+#define SH_CP 14
 #define MR  15
 
 #define LATCHPIN ST_CP
